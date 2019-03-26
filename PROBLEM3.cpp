@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-
+#include <conio.h>
 using namespace std;
 int main() {
 	float avg, intr,interest, netbal, payment, d1, d2;
@@ -21,5 +21,7 @@ int main() {
 	interest = (avg*intr);
 	cout << "Average Daily Balance: "<< avg << endl;
 	cout << "Interest is: " << interest << endl;
+	
+	getch ();
 	return 0;
 }
